@@ -26,7 +26,7 @@ date="date"
 # Kernel compilation specific details
 export KBUILD_BUILD_USER="Chanz22"
 KERNEL_BUILD="Re-EvolutionKernel-v1.4-Chanz22-`date '+%Y%m%d-%H%M'`"
-TOOLCHAIN=/home/chanz22/toolchains/arm-cortex_a9-linux-gnueabihf-linaro_4.9/bin/arm-cortex_a9-linux-gnueabi-
+TOOLCHAIN=/home/chanz22/toolchains/Linaro_4.9.4/GCC/bin/arm-cortex_a9-linux-gnueabihf-
 
 
 # Variables
