@@ -24,9 +24,9 @@ date="date"
 
 
 # Kernel compilation specific details
-export KBUILD_BUILD_USER="k2wl"
-KERNEL_BUILD="EvolutionKernel-v1.3-k2wl-`date '+%Y%m%d-%H%M'`"
-TOOLCHAIN=/home/k2wl/k2wl-linaro-4.8/bin/arm-cortex_a9-linux-gnueabi-
+export KBUILD_BUILD_USER="Chanz22"
+KERNEL_BUILD="Re-EvolutionKernel-v1.4-Chanz22-`date '+%Y%m%d-%H%M'`"
+TOOLCHAIN=/home/chanz22/toolchains/arm-cortex_a9-linux-gnueabihf-linaro_4.9/bin/arm-cortex_a9-linux-gnueabi-
 
 
 # Variables
@@ -63,7 +63,7 @@ echo ""
 $violet
 echo ""
 echo ""
-echo "Making config for evolution kernel..."
+echo "Making config for Re-evolution kernel..."
 echo ""
 echo ""
 make cm_i9082_defconfig
@@ -81,7 +81,7 @@ echo ""
 echo "Compiling kernel..."
 echo ""
 echo ""
-make -j16
+make -j12
 echo ""
 echo ""
 echo "==========================================================="
